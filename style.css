@@ -163,7 +163,6 @@ body {
   height: auto; 
 }
 
-
 .mentor{
   left: 40%;
 }
@@ -317,7 +316,7 @@ body {
 }
 
 .welcome{
-  margin: 20px;
+  margin-top: 100px;
   background-color: rgba(0, 0, 0, 0.484);
   border-radius: 20px;
   padding: 20px 40px 20px 40px;
@@ -336,7 +335,7 @@ body {
   font-size: larger;
   position: absolute;
   border-radius: 10px;
-  top: 140%;
+  top: 120%;
   /* right: 30%; */
   padding: 0px 10px 10px 10px;
   background-color: rgba(15, 14, 14, 0.293);
@@ -414,6 +413,7 @@ body {
   align-items: center;
 }
 .meme{
+  margin: 40px 0px;
   width: 600px;
   border-radius: 30px;
   box-shadow: rgb(0, 0, 0) 5px 15px 20px;
@@ -463,24 +463,25 @@ body {
     transform: translateX(-50%);
     z-index: 5; }
     .site-navbar .site-navigation .site-menu {
-      margin-bottom: 0; }
+      margin-top: 50px; }
       .site-navbar .site-navigation .site-menu .active {
-        color: #fff;
         display: inline-block;
         padding: 5px 20px; }
       .site-navbar .site-navigation .site-menu a {
-        text-decoration: none !important;
         display: inline-block;
         position: relative; }
       .site-navbar .site-navigation .site-menu > li {
         display: inline-block; }
         .site-navbar .site-navigation .site-menu > li > a {
           padding: 20px 20px !important;
-          color: rgba(255, 255, 255, 0.5);
+          color: rgb(255, 255, 255);
+          font-family: 'Playfair Display', serif;
           display: inline-block;
-          text-decoration: none !important; }
-          .site-navbar .site-navigation .site-menu > li > a:hover {
-            color: #fff; }
+          font-size: 25px;
+          }
+        .site-navbar .site-navigation .site-menu ul li  a:hover {
+          text-decoration:dotted;
+        }
       .site-navbar .site-navigation .site-menu .has-children {
         position: relative; }
         .site-navbar .site-navigation .site-menu .has-children > a {
@@ -959,7 +960,7 @@ h1, h2, h3, h4 {
   font-weight: 700; }
 
 .section-hero, .section-hero > .container > .row {
-  height: 100vh;
+  height: 80vh;
   /* min-height: 900px;  */
 }
 
